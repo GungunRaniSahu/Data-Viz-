@@ -459,7 +459,7 @@ button:hover {
     border-radius: 10px;
 }
 
-#first-button, #second-button, #third-button {
+#first-button {
     width: 80px;
     height: 30px;
     border-radius: 10px;
@@ -475,14 +475,7 @@ button:hover {
     background: linear-gradient(135deg, #f39c12, #d4af37, #e67e22); /* Gold gradient */
 }
 
-#second-button {
-    background: linear-gradient(135deg, #7f8c8d, #95a5a6, #bdc3c7); /* Grey gradient */
-}
 
-#third-button {
-    background: linear-gradient(135deg, #c0392b, #e74c3c, #7f1c1c); /* Red gradient */
-}
-
-#first-button:hover, #second-button:hover, #third-button:hover {
+#first-button:hover {
     transform: scale(1.1);
 }
