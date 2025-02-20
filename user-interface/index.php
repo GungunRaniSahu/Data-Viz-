@@ -23,16 +23,17 @@
 <body>
     <div class="container">
         <!-- Left: Leaderboard -->
-        <div class="leaderboard">
+         <div class="upper">
+        <div class="leaderboard" style="height:420px;">
             <h2>🏆 Leaderboard</h2>
             <div id="leaderboard-list">
                 <?php include 'Backend/leaderboard.php'; ?>
             </div>
             <!--  -->
-        </div>
-        <div class="player-box">
-          <!-- Sold Players -->
-          <div class="sold-palyers">
+              </div>
+
+
+              <div class="sold-palyers">
               <div class="box-header">Sold Players</div>
               <div class="box-list">
                   <!-- Player Box -->
@@ -47,24 +48,20 @@
                       <div class="player-extra">₹75 Cr</div>
                   </div>
                   <div class="player-box-item">
-                    <div class="player-image">P3</div>
-                    <div class="player-name">Player 3</div>
-                    <div class="player-extra">Category</div>
-                </div>
-                <div class="player-box-item">
-                  <div class="player-image">P3</div>
-                  <div class="player-name">Player 3</div>
-                  <div class="player-extra">Category</div>
-              </div>
-              <div class="player-box-item">
-                <div class="player-image">P3</div>
-                <div class="player-name">Player 3</div>
-                <div class="player-extra">Category</div>
-            </div>
-              </div>
-          </div>
-        
-  
+                      <div class="player-image">P3</div>
+                      <div class="player-name">Player 3</div>
+                      <div class="player-extra">₹100 Cr</div>
+                  </div>
+                  <div class="player-box-item">
+                      <div class="player-image">P4</div>
+                      <div class="player-name">Player 4</div>
+                      <div class="player-extra">₹75 Cr</div>
+                  </div>
+
+                  
+</div>
+</div>
+</div>
         <!-- Center: Current Player Panel -->
         <div class="current-player">
             <!-- <div class="player-image-container">
@@ -91,51 +88,53 @@
             <h2>Team Squads</h2>
             <div id="team-list-container"></div>
         </div>-->
-        <div class="bidding-history-container">                  
-                <h2>📜 Bidding History</h2>  <div class='stat-item'><span>Wickets:</span> <span id='player-wickets'> $wkts </span></div>
+        <div class="lower">
+        <div class="bidding-history-container" style="height:420px;">                  
+                <h2>📜 Bidding History</h2>  
+                <div class='stat-item'><span>Wickets:</span> <span id='player-wickets'> $wkts </span>
+                </div>
 
-                <div id="bidding-history" class="bidding-history-box">                <p>balboli</p>
+                <div id="bidding-history" class="bidding-history-box">
+                                    <p>balboli</p>
                 </div>
                 
             </div>
-    </div>
-    <div class="upcoming-players">
+<!--bidding-history-container end-->
+
+
+<div class="upcoming-players">
               <div class="box-header">Upcoming Players</div>
               <div class="box-list">
                   <!-- Player Box -->
                   <div class="player-box-item">
-                      <div class="player-image">P3</div>
-                      <div class="player-name">Player 3</div>
+                      <div class="player-image">P1</div>
+                      <div class="player-name">Player 1</div>
                       <div class="player-extra">Category</div>
                   </div>
                   <div class="player-box-item">
-                    <div class="player-image">P3</div>
-                    <div class="player-name">Player 3</div>
+                    <div class="player-image">P2</div>
+                    <div class="player-name">Player 2</div>
                     <div class="player-extra">Category</div>
                 </div>
+
                 <div class="player-box-item">
-                  <div class="player-image">P3</div>
-                  <div class="player-name">Player 3</div>
-                  <div class="player-extra">Category</div>
-              </div>
-              <div class="player-box-item">
                 <div class="player-image">P3</div>
                 <div class="player-name">Player 3</div>
                 <div class="player-extra">Category</div>
             </div>
             <div class="player-box-item">
-              <div class="player-image">P3</div>
-              <div class="player-name">Player 3</div>
+              <div class="player-image">P4</div>
+              <div class="player-name">Player 4</div>
               <div class="player-extra">Category</div>
           </div>
-                  <div class="player-box-item">
-                      <div class="player-image">P4</div>
-                      <div class="player-name">Player 4</div>
-                      <div class="player-extra">Category</div>
-                  </div>
-              </div>
-          </div>
-      </div>
+
+</div>
+</div>
+</div>
+</div> <!--lower end-->
+
+
+</div> <!--container end-->
     <script src="script.js"></script>
 </body>
 </html>
