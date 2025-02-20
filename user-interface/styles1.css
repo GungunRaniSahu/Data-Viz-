@@ -28,6 +28,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 40PX;
+    /*height: 415px;*/
 
 }
 
@@ -88,7 +89,7 @@ body {
 }
 
 .top{
-    margin-top: 150px !important;
+    margin-top: 80px !important;
 }
 
 .player-stats {
@@ -343,9 +344,14 @@ body {
 }
 
 .sold-palyers , .upcoming-players{
-    background: linear-gradient(90deg, #232222, #737373);    border-radius: 21px;
-    width: 17rem;
-    height: 10rem;
+    background: #00000039;   
+    border-radius: 21px;
+    width: 25rem;
+    height: 345px;
+    margin-top: 55px;
+    border: 1PX SOLID rgba(255, 255, 255, 0.393);
+    box-shadow: 0 0 20px rgba(76, 175, 79, 0.379);
+
 }
 
 
@@ -368,7 +374,7 @@ body {
     overflow-y: scroll; /* Keep vertical scrolling */
     -ms-overflow-style: none;
     text-align: center;
-    max-height: 8rem; /* Set max height to avoid excessive height */
+    height: 18rem; /* Set max height to avoid excessive height */
     padding-right: 5px; /* Prevent accidental horizontal scroll */
 }
 .box-list::-webkit-scrollbar{
@@ -404,13 +410,8 @@ body {
     z-index: 2;
     text-transform: uppercase;
 }
-.player-box > div {
-   
-    border-radius: 21px;
-    width: 17rem;
-    height: 10rem;
-    display: flex;
-    flex-direction: column;
+.player-box > div 
+{
     justify-content: flex-start;
     align-items: center;
     text-align: center;
